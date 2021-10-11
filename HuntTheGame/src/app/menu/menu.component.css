@@ -1,0 +1,33 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: black;
+    border-bottom: 3px solid blanchedalmond;
+}
+
+.dropdown-menu{
+background-color: black;
+border-color: blanchedalmond;
+
+text-align: center;
+font-family: "Pixel";
+font-size: 10px;
+}
+
+.dropdown-menu a{
+    color: blanchedalmond;
+}
+
+.img{
+padding-top: auto;
+}
+
+@font-face {
+    font-family: Pixel;
+    src: url("../../assets/fonts/Pixel.ttf") format("opentype")
+}

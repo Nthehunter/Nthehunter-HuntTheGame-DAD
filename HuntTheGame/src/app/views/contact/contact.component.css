@@ -1,0 +1,38 @@
+.container-fluid{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+    font-family: "Pixel";
+    margin-top: 50px;
+    font-size: 19px;
+}
+
+.mail{
+    font-size: 15px;
+}
+
+.container{
+    margin-top: 40px;    
+    background-color: black;
+}
+
+button{
+    background-color: #201F1F;
+    border-radius: 50px; /*bordes redondos*/
+    height: 61px;
+    width: 300.59px;
+    font-size: 15px;
+}
+
+
+.tittle{
+    margin-top: 38px;
+    font-size: 18px;
+    background-color: black;
+}
+
+
+@font-face {
+    font-family: Pixel;
+    src: url("../../../assets/fonts/Pixel.ttf") format("opentype")
+}

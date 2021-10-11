@@ -1,0 +1,30 @@
+<div class="container-fluid-form">
+
+    <div class="container-fluid" *ngIf="miToken == 0">
+        <form novalidate (ngSubmit)="post()">
+            <label> Inicio de sesión en HTG </label>
+            <br>
+            <label class="alert" *ngIf="this.loginError === true"> usuario o contraseña incorrectos </label>
+
+
+            <label> Nombre de usuario </label><br>
+            <input type="text" id="fuser" name="fuser" [(ngModel)]="fuser"><br>
+            <label> Contraseña </label><br>
+            <input type="password" id="fpassword" name="fpassword" [(ngModel)]="fpassword"><br>
+            <button type="submit"> INICIAR SESIÓN </button>
+
+
+        </form>
+        <p class="blue"> ¿Has olvidado tu contraseña? </p>
+        <p> ¿No tienes cuenta en Hunt the game? </p>
+        <p class="blue">Registraste</p>
+        <p>para no perderte nuestras ofertas
+            exclusivas para socios </p>
+
+
+    </div>
+    <div class="container-fluid login" *ngIf="miToken != 0">
+
+        <label class="succes"> Ha iniciado sesión correctamente </label>
+    </div>
+</div>

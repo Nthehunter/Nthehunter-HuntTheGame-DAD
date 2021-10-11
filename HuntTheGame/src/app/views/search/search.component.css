@@ -1,0 +1,121 @@
+.container-fluid{
+    text-align: center;
+    color: #333333;
+    font-size: 13px;
+    font-family: "Pixel";
+    margin-top: 10px;
+    
+
+}
+
+
+.product p{
+    height: auto;
+    width: auto;
+    font-size: 10px;
+}
+
+.buy{
+    font-size: 10px;
+    height: auto;
+    width: auto;
+}
+
+.alert{
+    color: red;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.names{
+    padding: auto;
+}
+
+.img{
+    padding-top: 10px;
+    height: 150px;
+    width: auto;
+
+}
+.filter{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+    background-color: #AFCACD;
+    border-radius: 50px;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+
+.filter p{
+    margin-top: auto;
+}
+
+
+label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blue{
+    color: #1EAAF1;
+}
+
+
+
+input{
+    width: 90%;
+    font-size: 10px;
+    text-align: left;
+    margin-left: auto;
+    margin-left: auto;
+    border-radius: 50px;
+    font-size: 8px;
+}
+
+.container-fluid-form{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: #D9D9D9;
+    font-family: "Pixel";
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.message{
+    height: 150px;
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px; /*bordes redondos*/
+    font-size: 10px;
+    width: 160px;
+    background-color: #AFAFAF;
+  
+}
+
+.container{
+    margin-top: 40px;    
+    background-color: black;
+}
+
+
+
+@font-face {
+    font-family: Pixel;
+    src: url("../../../assets/fonts/Pixel.ttf") format("opentype")
+}
+

@@ -1,0 +1,67 @@
+<div class="container-fluid-form">
+
+
+    <div class="container-fluid" *ngIf="miToken != 0">
+        <br><br>
+
+        <form novalidate (ngSubmit)="sendSearch()">
+            <input type="text" id="fsearch" name="fsearch" [(ngModel)]="fsearch" placeholder="Ejemplo: Zelda breath of the wild"><br>
+
+            <button type="submit"> Buscar </button>
+        </form>
+        
+
+
+        <label class="alert" *ngIf="this.searchError === true"> No se ha encontrado el producto </label>
+
+        <div *ngIf="search === true">
+
+            <div class="filter">
+
+                <p> Filtros </p>
+
+
+                <p> Ordenar </p>
+
+            </div>
+
+            <div *ngFor="let p of productResult">
+
+
+                <div class="row">
+                    <div class="col">
+                        
+                        
+                        <img *ngIf="p.name === 'The legend of zelda Breath of the wild' "class="img" src="../../../assets/images/game1.png">
+                        <img *ngIf="p.name === 'Super smash bros: Ultimate' "class="img" src="../../../assets/images/game2.png">
+                        
+                    </div>
+                    <div class="col">
+                        
+                            <p>
+                                {{ p.name }}<br>
+                                {{p.description}} <br>
+                                {{p.price}} €
+                            </p>
+                       
+                    </div>
+                    <div class="col">
+                        
+                            <button class="buy" type="submit"> Comprar </button>
+                        
+                    </div>
+
+                </div>
+        
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid" *ngIf="miToken == 0">
+     
+        <label class="alert"> Debes de iniciar sesión para poder buscar productos </label>
+    </div>
+</div>

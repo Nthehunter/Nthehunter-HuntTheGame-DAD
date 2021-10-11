@@ -1,0 +1,25 @@
+<div class="contenedor">
+    <div class="elemento">
+        <li class="nav-item dropdown" *ngIf="miToken == 0">
+            <img src="../../assets/images/menu.png" class="nav-link dropdown-toggle img" href="#" id="navbardrop"
+                data-toggle="dropdown">
+            <div class="dropdown-menu">
+                <a class="dropdown-item" routerLink=""  >Inicio</a> <br>
+                <a class="dropdown-item"  routerLink="/contacto"  >Contacto</a> <br>
+                <a class="dropdown-item" routerLink="/sesion"  >Iniciar sesión </a>
+            </div>
+        </li>
+        <li class="nav-item dropdown" *ngIf="miToken != 0">
+            <img src="../../assets/images/menu.png" class="nav-link dropdown-toggle img" href="#" id="navbardrop"
+                data-toggle="dropdown">
+            <div class="dropdown-menu">
+                <a class="dropdown-item" routerLink=""  >Inicio</a> <br>
+                <a class="dropdown-item"  routerLink="/contacto"  >Contacto</a> <br>
+                <a class="dropdown-item"  routerLink="/"  >Configuración</a> <br>
+                <a class="dropdown-item" (click)="logout()" routerLink="/sesion"  >Cerrar sesión </a>
+            </div>
+        </li>
+    </div>
+    <div class="elemento"><img routerLink="" src="../../assets/images/logo.png" class="img"></div>
+    <div class="elemento"><img routerLink="/busqueda" src="../../assets/images/search.png" class="img"></div>
+</div>
