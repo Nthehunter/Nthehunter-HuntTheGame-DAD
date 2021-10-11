@@ -17,4 +17,3 @@ Productos de pruebas para el frontend:
 2. Super smash bros: Ultimate
 
 Se debe de iniciar sesión previamente para poder hacer uso de la búsqueda.
-
