@@ -2,26 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
-## Development server
+Hunt The Game es una app desarrollada para dispositivos móviles, por lo tanto debe de tenerse en cuenta solo la vista para dicho dispositivo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Los datos de los usuarios y productos están en la base de datos (MySQL).
 
-## Code scaffolding
+El backend ha sido desarrollado con spring boot así que debe de ejecutarse como una aplicación de Spring
+(Recordar cambiar la base de datos, usuario y contraseña en spring en el archivo application.properties)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Usuario y contraseña de pruebas para el frontend:
+Usuario: Nael  Contraseña: Root_1234
 
-## Build
+Productos de pruebas para el frontend:
+1. The legend of zelda Breath of the wild
+2. Super smash bros: Ultimate
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Se debe de iniciar sesión previamente para poder hacer uso de la búsqueda.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
