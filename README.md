@@ -9,7 +9,7 @@ Los datos de los usuarios y productos están en la base de datos (MySQL).
 El backend ha sido desarrollado con spring boot así que debe de ejecutarse como una aplicación de Spring
 (Recordar cambiar la base de datos, usuario y contraseña en spring en el archivo application.properties)
 
-#Como usar el backend
+# Como usar el backend
 -Para abrir el backend recomiendo usar el IDE Eclipse, luego creas un workspace ( File -> Switch workspace -> Other )
 
 -Seleccionas la ruta donde este la carpeta del backend, Ejemplo: "Downloads\Nthehunter-HuntTheGame-DAD-main\BackendDatabase"
@@ -22,7 +22,7 @@ El backend ha sido desarrollado con spring boot así que debe de ejecutarse como
 
  -- Nota importante: En el IDE debes de tener instalado el plugin de spring boot. --
  
- #Como iniciar el frontend
+ # Como iniciar el frontend
  - Se necesita tener instalado angular, recomiendo usar visual studio code para ejecutarlo.
  - En la consola de comando, situandote dentro de la carpeta HuntTheGame ejecutamos el comando : ng serve --open 
  - Una vez hecho lo anterior se ejecutará la app
