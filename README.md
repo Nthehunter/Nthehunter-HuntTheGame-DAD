@@ -10,15 +10,15 @@ El backend ha sido desarrollado con spring boot así que debe de ejecutarse como
 (Recordar cambiar la base de datos, usuario y contraseña en spring en el archivo application.properties)
 
 # Como usar el backend
--Para abrir el backend recomiendo usar el IDE Eclipse, luego creas un workspace ( File -> Switch workspace -> Other )
+- Para abrir el backend recomiendo usar el IDE Eclipse, luego creas un workspace ( File -> Switch workspace -> Other )
 
--Seleccionas la ruta donde este la carpeta del backend, Ejemplo: "Downloads\Nthehunter-HuntTheGame-DAD-main\BackendDatabase"
+- Seleccionas la ruta donde este la carpeta del backend, Ejemplo: "Downloads\Nthehunter-HuntTheGame-DAD-main\BackendDatabase"
 
--Una vez hecho lo anterior añadiremos los archivos al proyecto, de esta manera ( File -> open proyect from file system ) 
+- Una vez hecho lo anterior añadiremos los archivos al proyecto, de esta manera ( File -> open proyect from file system ) 
 
--En import source seleccionas el directorio "Nthehunter-HuntTheGame-DAD-main\BackendDatabase\HuntTheGame"
+- En import source seleccionas el directorio "Nthehunter-HuntTheGame-DAD-main\BackendDatabase\HuntTheGame"
 
--Una vez seleccionado le das a "Finish" y podrás usar el backend en eclipse dandole a click derecho al proyecto y "run as Spring boot App".
+- Una vez seleccionado le das a "Finish" y podrás usar el backend en eclipse dandole a click derecho al proyecto y "run as Spring boot App".
 
  -- Nota importante: En el IDE debes de tener instalado el plugin de spring boot. --
  
