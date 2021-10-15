@@ -2,8 +2,8 @@
     
     <div class="container-fluid">
         <form novalidate (ngSubmit)="post(myArea.value)" >
-            <label class="alert" *ngIf="this.send === false"> No deje ningún campo sin rellenar  </label><br>
-            <label class="succes" *ngIf="this.send === true"> El mensaje ha sido enviado!  </label>
+            <label class="alert" *ngIf="this.send === false"> No deje ningún campo sin rellenar  </label>
+            <label class="succes" *ngIf="this.send === true"> El mensaje ha sido enviado!  </label><br>
             <label> Nombre</label><br>
             <input matInput type="text"  id="fname" name="fname" [(ngModel)]="fname"><br>
             <label class="alert" *ngIf="this.visibleName === true" > *Pon un Nombre válido* </label><br>
